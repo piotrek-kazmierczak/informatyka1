@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sporty Zimowe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(#cfe9ff, #ffffff);
+            color: #033e6b;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0a6ebd, #4fc3f7);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.2em;
+        }
+
+        .sports {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        footer {
+            background: #0a6ebd;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>❄️ Sporty Zimowe ❄️</h1>
+    <p>Energia, śnieg i adrenalina w zimowym klimacie</p>
+</header>
+
+<section>
+    <h2>Najpopularniejsze sporty zimowe</h2>
+
+    <div class="sports">
+        <div class="card">
+            <h3>⛷️ Narciarstwo</h3>
+            <p>Jeden z najpopularniejszych sportów zimowych. Łączy prędkość, technikę i piękne górskie krajobrazy.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏂 Snowboarding</h3>
+            <p>Sport dla miłośników wolności i stylu. Idealny dla osób lubiących ewolucje i freestyle.</p>
+        </div>
+
+        <div class="card">
+            <h3>⛸️ Łyżwiarstwo</h3>
+            <p>Elegancja i precyzja na lodzie – zarówno rekreacyjnie, jak i w formie zawodowej.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛷 Saneczkarstwo</h3>
+            <p>Szybki sport zimowy wymagający refleksu i odwagi, uprawiany na specjalnych torach.</p>
+        </div>
+
+  
